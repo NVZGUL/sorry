@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+h5{
+  font-weight: 400;
+}
+.container{
+  height: 100vh;
+}
+.video{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+}
+
+@media screen and (max-width: 800px){
+  .video{
+    margin: auto;
+    display: block;
+    width: 90%;
+  }
+}
